@@ -1,0 +1,16 @@
+or create a new repository on the command line
+echo "# medical" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/hossam8200/medical.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/hossam8200/medical.git
+git push -u origin master
+
+
+
+https://confluence.atlassian.com/fishkb/unable-to-clone-git-repository-due-to-self-signed-certificate-376838977.html
+
+git config --global http.sslVerify false
